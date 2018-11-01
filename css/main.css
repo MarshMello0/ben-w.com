@@ -64,3 +64,10 @@ td:hover .tip
 {
     text-align: center;
 }
+.youtubeClamp iframe
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
