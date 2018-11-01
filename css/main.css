@@ -1,0 +1,66 @@
+.bg-grey
+{
+    background-color:#929ea8;
+}
+.padding-top
+{
+    padding-top: 3%;
+}
+.margin-top
+{
+    margin-top: 1%
+}
+.maxHight
+{
+    height: 40%;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.imgT
+{
+    width: 100%;
+    table-layout: false;
+}
+.imgT td
+{
+    position: relative;
+    text-align: center;
+}
+.tip
+{
+    text-align: center;
+    color: #f5f6fa;
+    opacity: 0;
+    padding: 0.25em;
+    display: block;
+    z-index: 100;
+    background:#2ecc71;
+    margin: 0.05em auto;
+    transform: translateY(-50%);
+    border-radius: 0.5em;
+    transition: opacity 0.5s, transform 0.5s;
+}
+td:hover .tip
+{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+.imgT img
+{
+    height: 3em;
+    width: auto;
+}
+.imgT p
+{
+    text-align: center;
+}
