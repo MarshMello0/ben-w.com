@@ -1,3 +1,7 @@
+h2
+{
+    margin-top: 2%;
+}
 .bg-grey
 {
     background-color:#929ea8;
@@ -22,6 +26,10 @@
 .maxHight
 {
     height: 70%;
+}
+.level2
+{
+    height: 40%;
 }
 .navbar-nav {
     float:none;
