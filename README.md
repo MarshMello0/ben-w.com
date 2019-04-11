@@ -4,8 +4,8 @@ The site can be viewed from [here](http://ben-w.com)
 
 ## To-do List
 Based of feedback, these are the things I need to change to improve on my portfolio.
-Task | Completed | From
---- | --- | ---
-Increase the top and bottom margins of each item in the sub headdings such as "UERP", "Block Factory" |  | Anthony Marmont
-Resize the images so they fit with the text and are similar in size. | X | Anthony Marmont
-Change the focus of each item to talk about programming instead of the game | X | Anthony Marmont
+
+| Task                                                                                                   | Completed | From            |
+|--------------------------------------------------------------------------------------------------------|-----------|-----------------|
+| Increase the top and bottom margins of each item in the sub headdings such as "UERP", "Block Factory". | X         | Anthony Marmont |
+| Resize the images so they fit with the text and are similar in size.                                   | X         | Anthony Marmont
