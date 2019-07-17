@@ -1,10 +1,23 @@
 h2
 {
     margin-top: 2%;
+    
+}
+*
+{
+    color: white;
 }
 .bg-grey
 {
-    background-color:#929ea8;
+    background-color: #4d4d4d ;
+}
+.bg-lightBlack
+{
+    background-color:#222222 ;
+}
+.bg-black
+{
+    background-color: #000000;
 }
 .padding-top
 {
@@ -37,56 +50,9 @@ h2
     display: block;
     text-align: center;
 }
-
 .navbar-nav > li {
     display: inline-block;
     float:none;
-}
-
-.imgT
-{
-    width: 100%;
-    table-layout: false;
-}
-.imgT td
-{
-    position: relative;
-    text-align: center;
-}
-.tip
-{
-    text-align: center;
-    color: #f5f6fa;
-    opacity: 0;
-    padding: 0.25em;
-    display: block;
-    z-index: 100;
-    background:#2ecc71;
-    margin: 0.05em auto;
-    transform: translateY(-50%);
-    border-radius: 0.5em;
-    transition: opacity 0.5s, transform 0.5s;
-}
-td:hover .tip
-{
-    opacity: 1;
-    transform: translateY(-100%);
-}
-.imgT img
-{
-    height: 3em;
-    width: auto;
-}
-.imgT p
-{
-    text-align: center;
-}
-.youtubeClamp iframe
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
 }
 .roundedImage img
 {
@@ -96,4 +62,12 @@ td:hover .tip
 {
     height: 19%;
     width: auto;
+}
+.text-right
+{
+    float: right;
+}
+.text-left
+{
+    float: left;
 }
