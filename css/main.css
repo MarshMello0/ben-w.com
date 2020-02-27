@@ -1,11 +1,11 @@
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 h2
 {
     margin-top: 2%;
     
-}
-*
-{
-    color: white;
 }
 .bg-grey
 {
