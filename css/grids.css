@@ -118,9 +118,10 @@
 {
     display: grid;
     grid-template-columns: repeat(5,auto);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(2,50%);
     grid-template-areas: 
-    ". email github linkedin .";
+    ". email github linkedin ."
+    ". . hosted . .";
 }
 .contact-email
 {
@@ -133,6 +134,10 @@
 .contact-linkedin
 {
     grid-area: linkedin;
+}
+.contact-hosted
+{
+    grid-area: hosted;
 }
 
 
