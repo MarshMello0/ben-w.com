@@ -4,446 +4,306 @@
 <head>
     <title>Ben Wilson's Portfolio</title>
 
-    <link rel="icon" type="image/png" href="/img/me.jpg">
+    <link rel="icon" type="image/png" href="/img/me.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/grids.css" type="text/css">
+    <link rel="stylesheet" href="css/colours.css" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@_Marsh_Mello">
-    <meta name="twitter:title" content="Ben Wilson's Portfolio">
-    <meta name="twitter:description" content="Ben Wilsons game development programmer portfolio">
-    <meta name="twitter:image" content="https://ben-w.com/img/me.jpg">
+    <meta name="twitter:title" content="Ben Wilson's Programming Portfolio">
+    <meta name="twitter:description" content="Ben Wilson's Programming Portfolio">
+    <meta name="twitter:image" content="https://ben-w.com/img/me.png">
 
-    <meta property="og:image" content="https://ben-w.com/img/me.jpg">
-    <meta property="og:title" content="Ben Wilson's Portfolio" />
+    <meta property="og:image" content="https://ben-w.com/img/me.png">
+    <meta property="og:title" content="Ben Wilson's Programming Portfolio" />
     <meta property="og:url" content="https://ben-w.com" />
-    <meta property="og:site_name" content="Gameplay Programmer Portfolio" />
-    <meta property="og:description" content="Ben Wilsons game development programmer portfolio" />
+    <meta property="og:site_name" content="Ben Wilson's Programming Portfolio" />
+    <meta property="og:description" content="Ben Wilson's Programming Portfolio" />
 </head>
 
-<body class="bg-black">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-lightBlack sticky-top col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<body = class="colour-black-background">
+    <div class="header-container colour-lightblack-background sticky">
+        <a href="#about" class="header-about text-center link">
+            <p><i class="far fa-user fa-lg"></i> About</p>
+        </a>
+        <a href="#portfolio" class="header-portfolio text-center link">
+            <p><i class="fas fa-code fa-lg"></i> Portfolio</p>
+        </a>
+        <a href="#contact" class="header-contact text-center link">
+            <p><i class="far fa-address-book fa-lg"></i> Contact</p>
+        </a>
+        <a href="/Ben Wilson CV PF.pdf" class="header-cv text-center link">
+            <p><i class="far fa-file fa-lg"></i> CV</p>
+        </a>
+    </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#About">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://blog.ben-w.com">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Ben Wilson CV.pdf">CV</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Ben Wilson CV PF.pdf">CV Print Friendly</a>
-                </li>
-            </ul>
+    <div class="main-container">
+        <div class="main-abouttitle text-center colour-grey-background margin-top" id="about">
+            <h2>About</h2>
         </div>
-    </nav>
-    <div class="container bg-lightBlack">
-        <!--About Section-->
-        <div class="row " id="About">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-grey">
-                <h1 class="text-center"><b>About</b></h1>
+
+        <div class="main-about about-container colour-lightblack-background">
+            <div class="about-image">
+                <img src="/img/me.png" alt="Image of Me at Hever Castle & Gardens"/>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 image-circle margin-top">
-                <img src="/img/me.jpg" class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 margin-top">
-                Hey, I'm Ben and I am a Gameplay C# Programmer. I have studied Games Development for 3 years at Greater
-                Brighton Metropolitan College in West Durrington focusing on all aspects of games development. During
-                that time I also have actively been using Unity C# outside of college creating different
-                projects/prototypes, my favourite areas of programming are multiplayer programming and creating virtual
-                reality games. They are the two areas I am currently focusing on in my spare time.
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+
+            <div class="about-text">
+                <p class="text-center">
+                    Hey, I'm Ben and I am a Gameplay C# Programmer. I have studied Games Development for 3 years at Greater Brighton Metropolitan College in West Durrington focusing on all aspects of games development. During that time I also have actively been using Unity C# outside of college creating different projects/prototypes, my favourite areas of programming are multiplayer programming and creating virtual reality games. They are the two areas I am currently focusing on in my spare time. 
+                </p>
                 <h3 class="text-center">Skills</h3>
-                <ul>
-                    <li>C#</li>
-                    <li>Unity</li>
-                    <li>Steamworks</li>
-                    <li>SteamVR Plugin</li>
-                    <li>Git</li>
-                    <li>Unreal Engine</li>
-                    <li>Maya</li>
-                    <li>HTML</li>
-                    <li>Photoshop</li>
-                </ul>
-            </div>
-
-        </div>
-
-        <!--Portfolio Section-->
-        <div class="row bg-lightBlack" id="Portfolio">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-grey margin-top">
-                <h1 class="text-center h1Spacing"><b>Portfolio</b></h1>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> VTOL VR Mod Loader </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="img/VTOLVR-ModLoader/modloader.gif"
-                                            class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p class="">
-                                            This is a mod loader for the game "VTOLVR" on steam. This is a WPF
-                                            application which injects custom code to load user-created mods in C#.
-                                            <br><b>Unity 2019, C#, WPF, Injection</b>
-
-                                            <a href="https://vtolvr-mods.com/"
-                                                target="_blank">
-                                                Website
-                                            </a>
-                                            <span class="text-right">
-                                                <a href="https://github.com/MarshMello0/VTOLVR-ModLoader"
-                                                    target="_blank">Code</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--The Falling-->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> The Falling </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="img/The Falling/Cover Art.png"
-                                            class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            The Falling is a game jam project, the theme was "5 Seconds to live". In a
-                                            team of two, I was the only coder and was responsible for the whole Unity
-                                            project.
-                                            <br><b>Unity 2019, WebGL, C#</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://hiddendetail.itch.io/the-falling" target="_blank">
-                                                    Game
-                                                </a>
-                                            </span>
-
-                                            <span class="text-right">
-                                                <a href="https://github.com/MarshMello0/GameJam-10th-June"
-                                                    target="_blank">Code</a>
-                                            </span>
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                <div class="skills-container">
+                    <div class="skills-languages">
+                        <h4>Languages:</h4>
+                        <li>C#</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Unreal Engine Blueprints</li>
                     </div>
-
-                    <div class="row">
-                        <!--Polluted -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> Polluted </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="/img/Polluted/board1.png" class="img-fluid rounded mx-auto d-block"
-                                            alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            Polluted was my FMP for my last year at college, we had 13 weeks to create a
-                                            game based on the word "Forgotten". I created a survival game where you play
-                                            in abandoned city.
-                                            <br> <b>Unity 2018, C#, Procedural</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://github.com/MarshMello0/Polluted/releases"
-                                                    target="_blank">
-                                                    Game</a>
-                                            </span>
-
-                                            <span class="text-right">
-                                                <a href="https://github.com/MarshMello0/Polluted"
-                                                    target="_blank">Code</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--UConsole -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> UConsole </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="/img/UConsole/In Game Hud.PNG"
-                                            class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            UConsole was a small side project where I tried to create an easy to use API
-                                            for people who want to add an in-game console to their games.
-                                            <br> <b>Unity 2018, C#</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://github.com/MarshMello0/UConsole/releases"
-                                                    target="_blank">
-                                                    Download</a>
-                                            </span>
-                                            <span class="text-right">
-                                                <a href="https://github.com/MarshMello0/UConsole" target="_blank">
-                                                    Code</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-                    </div>
-
-                    <div class="row">
-                        <!--BattleShips -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> Battleships </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="/img/Battleships/image-1.png"
-                                            class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            At College for Unit 12 the theme was "Nautical", I created a .io style
-                                            boat game in the two weeks.<a
-                                                href="https://www.youtube.com/watch?v=H2zZn3WiF5E" target="_blank">
-                                                Showcase Video</a>
-                                            <br> <b>Unity 2018, C#, Multiplayer, Prototype</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://github.com/MarshMello0/BattleShips/releases"
-                                                    target="_blank">
-                                                    Game</a>
-                                            </span>
-
-                                            <span class="text-right">
-                                                <a href="https://github.com/MarshMello0/BattleShips" target="_blank">
-                                                    Code</a>
-                                            </span>
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--UERP -->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> UERP </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="https://raw.githubusercontent.com/MarshMello0/UERP/master/Art%20Assets/Example%20Image.PNG"
-                                            class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            UERP is my first plugin for Unity. It displays what project you are working
-                                            on in Discord. This is a .dll plugin only for the editor, not for standalone
-                                            games.
-                                            <br>
-                                            <a href="https://blog.ben-w.com/posts/unity-discord-rich-presence.html">Blog
-                                                Post
-                                                1</a>
-                                            <a href="https://blog.ben-w.com/posts/uerp.html">Blog Post 2</a>
-                                            <br> <b>Unity Plugin, C#, DiscordRPC</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://github.com/MarshMello0/UERP/releases" target="_blank">
-                                                    Download</a>
-                                            </span>
-
-                                            <span class="text-right">
-                                                <a href="https://github.com/MarshMello0/UERP" target="_blank">
-                                                    Code</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-                    </div>
-
-
-                    <div class="row">
-                        <!--VR Physics Gun-->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center "> VR Physics Gun </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="img/VR-PhyiscGun/gif.gif" class="img-fluid rounded mx-auto d-block"
-                                            alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            VR Physics Gun is a quick prototype of recreating the physics gun from
-                                            Garry's Mod into VR using Unity and SteamVR plugin 1.X.X .
-                                            <br> <b>Unity 2018, C#,VR, Prototype</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://github.com/MarshMello0/vr-physicsgun" target="_blank">
-                                                    Code</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Block Factory-->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> Block Factory </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="img/Block Factory/Factory.png"
-                                            class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            Block Factory was an FMP project for my first year in level 3 games dev.
-                                            This was also my first completed 3D game which has become my most popular
-                                            game so far.
-                                            <br><b>Unity 2017, C#, Voxel</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://gamejolt.com/games/BlockFactory/340392"
-                                                    target="_blank">
-                                                    Game</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <!--Infected 2D-->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> Infected 2D </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="img/Infected2D/Map 1.png" class="img-fluid rounded mx-auto d-block"
-                                            alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            Infected 2D was the first Unity project I did in my spare time, it is a
-                                            local co-op game using controllers built in Unity 5.4.
-                                            <br> <b>Unity 5.4.1, C#, Local co-op</b>
-                                            <br>
-                                            <span class="text-left">
-                                                <a href="https://gamejolt.com/games/Infected2d/302639" target="_blank">
-                                                    Game</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Head Football-->
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <h2 class="text-center"> Mythological Head Football </h2>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <img src="img/Head Football/Poster2.png"
-                                            class="img-fluid rounded   mx-auto d-block" alt="Responsive Image">
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <p>
-                                            Mythological Head Football was my FMP project for level 2 Games Dev, the
-                                            theme was "Mythology" and I created a head football game inspired from
-                                            browser games.
-                                            <br><b>Unity 5.4,C#,AI, Multiplayer</b>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="skills-tools">
+                        <h4>Tools:</h4>
+                        <li>Unity</li>
+                        <li>Visual Studio</li>
+                        <li>Steamworks</li>
+                        <li>Unity XR System</li>
+                        <li>Git</li>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Contact Section-->
-        <div class="row bg-lightBlack" id="Contact">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-grey margin-top">
-                <h1 class="text-center h1Spacing"><b>Contact</b></h1>
-            </div>
-        </div>
-        <div class="row bg-lightBlack">
-            <div class="col">
-                <p class="text-center margin-top">
-                    Feel free to contact me about anything 😄
-                </p>
-            </div>
-        </div>
-        <div class="row bg-lightBlack">
-            <div class="col">
-                <a href="https://twitter.com/_Marsh_Mello" class="btn btn-outline-primary btn-lg btn-block"
-                    role="button" target="_blank">Twitter</a>
-            </div>
-            <div class="col">
-                <a href="https://github.com/MarshMello0" class="btn btn-outline-secondary btn-lg btn-block"
-                    role="button" target="_blank">Github</a>
-            </div>
-            <div class="col">
-                <a href="https://www.youtube.com/channel/UCB6XFKgIYXvsVDGjXZr_28Q"
-                    class="btn btn-outline-danger btn-lg btn-block" role="button" target="_blank">Youtube</a>
-            </div>
-            <div class="col">
-                <a href="mailto:benwilson2508@gmail.com" class="btn btn-outline-success btn-lg btn-block" role="button"
-                    target="_blank">Email</a>
-            </div>
-            <div class="col">
-                <a href="https://linkedin.com/in/benwilsonUK" class="btn btn-outline-primary btn-lg btn-block"
-                    role="button" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-        <div class="row bg-lightBlack">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-top">
-                <p class="text-center">
-                    Hosted on <a href="https://github.com/MarshMello0/ben-w.com" target="_blank">Github</a>
-                </p>
-            </div>
-        </div>
-</body>
 
+        <div class="main-portfoliotitle text-center colour-grey-background margin-top" id="portfolio">
+            <h2>Portfolio</h2>
+        </div>
+
+        <div class="main-portfolio colour-lightblack-background">
+            
+            <div class="portfolio-container">
+                <img src="/img/vtolvr-multiplayer/solo-test.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>VTOL VR Multiplayer Mod</h3> 
+                    <a href="https://github.com/MarshMello0/VTOLVR-Multiplayer" class="link-underline">Github Repository</a>
+                    <p>
+                        Back when I started the VTOL VR Mod Loader, I also started on implementing a multiplayer into the game. I first started with using the network solution DarkRift 2 then Forge Networking and have finally settled on Steam's Networking API after I had problems with the previous two. The mod is created in C# as a .net library which then gets injected by the mod loader into the game so that it can run my code.
+                        <br> <br>
+                        Over multiple months I have been working on this, there have been many challenges that I've had to overcome with creating a mod, such as the limited debugging tools and not having access to test in the Unity Editor, but by far the hardest part is reading and understanding the uncommented, decompiled code. Learning what things do what and searching for new ways to achieve things in the game is the most enjoying thing about it. 
+                    </p>
+                    Tools: Visual Studio, dnSpy, Steamworks, Harmony, UTinyRipper and Unity
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/VTOLVR-ModLoader/modloader-with-skin.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>VTOL VR Mod Loader</h3> 
+                    <a href="https://vtolvr-mods.com/" class="link-underline">Website</a>
+                    <a href="https://github.com/MarshMello0/VTOLVR-ModLoader" class="link-underline">Github Repository</a>
+                    <p>
+                        I created this mod loader in April 2019 and have been working on it scince. It's created in WPF using SharpMonoInjector by Github user warbler. It originally just injected user-created dlls into the game so they could run their custom code, but now it first loads itself and imports a custom UI from an asset bundle to provide a more user-friendly experience when playing with mods and skins with also an API to help mod creators to different tasks.
+                        <br><br>
+                        It's a small community with currently just over 600 downloads and 200 members in the discord server. I actively create mods for it as well in another repository on Github. I have learnt a lot also in other areas from this project such as web development, having to create the website and database.
+                    </p>
+                    Tools: Visual Studio, Visual Studio Code, dnSpy, UTinyRipper, SharpMonoInjector and Unity
+                    <br>
+                    Languages: C#, HTML, CSS, Javascript, XML and XMAL
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/The Falling/Cover Art.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>The Falling</h3> 
+                    <a href="https://hiddendetail.itch.io/the-falling" class="link-underline">Itch.io Page</a>
+                    <a href="https://github.com/MarshMello0/GameJam-10th-June" class="link-underline">Github Repository</a>
+                    <p>
+                        The Falling was created for a game jam which was hosted at our college. The theme was "5 seconds to live" and we teamed up with people from different classes. I ended up being in a small team of two, I was the coder and the other person was the artist, we decided to go for a simple platformer where you had to quickly pick the correct whole to fall into to collect the coin. You would have a brief time at the start to see where the coin was then the wholes would get covered up and you had to guess which one had the coin at the bottom.
+                        <br><br>
+                        We managed to complete the game in 24 hours we had, this was mainly because we had picked a simple idea and kept it simple. There were some challenges though, the main one being trying to export it as a WebGL project. As I had been testing it as a standalone exe there were some hidden issues when I switched the build to WebGL and uploaded it first to itch.io., one of the issues didn't get fixed in time but I am happy with the final outcome.
+                    </p>
+                    Tools: Unity, Visual Studio
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/Raft Modding/image.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>Raft Modding</h3> 
+                    <a href="https://www.raftmodding.com/" class="link-underline">Raft Modding Website</a>
+                    <a href="https://www.raftmodding.com/user/.%20Marsh.Mello%20." class="link-underline">My Raft Modding Account</a>
+                    <p>
+                        I have been apart of the raft modding community for a while and have created a couple of mods. Mods were first created as class libraries then you would place the dll in the mods folder but now you can just place CSharp files and it will compile it for you. All my mods were created by me alone and added small features to the game such as increasing a spawn rate of items, spawning items and increasing the size of nets.
+                        <br><br>
+                        As this was my first time modding a game built in the Unity engine there was a lot of exploring, finding new tools and finding different scripts/objects to do what you want to change. The hardest challenge of them all was trying to understand how Raft works in multiplayer. Syncing objects up and sending custom messages, but now after testing and experimenting, we have made it easier for future mod creators.
+                    </p>
+                    Tools: Visual Studio, dnSpy
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/Polluted/board1.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>Polluted</h3> 
+                    <a href="https://github.com/MarshMello0/Polluted/releases" class="link-underline">Download Page</a>
+                    <a href="https://github.com/MarshMello0/Polluted" class="link-underline">Github Repository</a>
+                    <p>
+                        Polluted was my final major project for my last year at college. We had 13 weeks to create a game based on a chosen word, this project the word was "Forgotten". I decided to create a survival game where you are placed in an abandoned city and you are left to survive. For this project we couldn't work in teams, so all the art and programming was done by me.
+                        <br><br>
+                        This project didn't turn as well as I hoped, it had a procedural generating city with items spawning in the houses but it was very empty and not seeming very abandoned. The hardest part about this was completing the art as well as doing the programming, as we had to create the assets our selves it meant I wasted a lot of time trying to create models and textures. Some of it's best features were the procedural generating city and the inventory system.
+                    </p>
+                    <br>
+                    Tools: Visual Studio, Unity, Blender, Photoshop
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/UConsole/image.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>UConsole</h3> 
+                    <a href="https://github.com/MarshMello0/UConsole/releases" class="link-underline">Download Page</a>
+                    <a href="https://github.com/MarshMello0/UConsole" class="link-underline">Github Repository</a>
+                    <p>
+                        UConsole is a small standalone console you can add to existing games and then you can easily add custom commands. I made this because lots of my projects, during development I wanted a console where I could spawn things or test actions without having to play the whole game to get to that part. It's meant to be a drag and drop so you don't have to do much work to it.
+                        <br><br>
+                        The main challenge with this project was that I hadn't done much work with actions/callbacks before. I would say that this project works, but it isn't perfect. It requires TextMeshPro because the default Unity text was blurly, and the code isn't optimised or thought through.                     
+                    </p>
+                    Tools: Visual Studio, Unity
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/Battleships/image-1.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>Battleships</h3> 
+                    <a href="https://github.com/MarshMello0/BattleShips/releases" class="link-underline">Download Page</a>
+                    <a href="https://github.com/MarshMello0/BattleShips" class="link-underline">Github Repository</a>
+                    <a href="https://www.youtube.com/watch?v=H2zZn3WiF5E" class=link-underline">Showcase Video</a>
+                    <p>
+                        For Unit 12 at college, we had to create a game based on the theme Nautical in two weeks. For this unit, I tried to make a .io style game where users would spawn in a boat and had to skin other boats. BattleShips uses <a href="https://assetstore.unity.com/packages/tools/network/forge-networking-remastered-38344" target="_blank" class="link-underline">Forge Networking Remastered by Bearded Man Studios</a>, then users would have to connect to a server by the IP because there was no master server to host a list of lobbies.
+                        <br><br>
+                        This project isn't very polished, I created all the art in photoshop my self then used Unity's basic sprites for things like the cannonballs. The hardest part about this project was the time frame, only have two weeks to complete the game and do all the writing for our WordPress sites to present to the tutor.
+                    </p>
+                    Tools: Visual Studio, Unity, Forge Networking
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/UERP/image.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>UERP</h3> 
+                    <a href="https://github.com/MarshMello0/UERP/releases" class="link-underline">Download Page</a>
+                    <a href="https://github.com/MarshMello0/UERP" class="link-underline">Github Repository</a>
+                    <p>
+                        UUERP stands for Unity Editor Rich Presense, it's my first plugin for the Unity Editor. It adds discord rich presence into the editor so you can show off to people on discord what you are currently working on. It first started out as some csharp files but then I learnt that you can make a standalone plugin instead so it was smaller in editors folder, this plugin was first created in unity then I would copy the code over to Visual Studio to compile a dll.
+                        <br><br>
+                        This was created at the start of 2019 and now discord's API has changed so it needs some revisiting. If I revisit this project I would like to try and get this onto the asset store so that it's easier for people to install and add to their projects.
+                    </p>
+                    Tools: Visual Studio, Unity, Discord's SDK
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/VR-PhyiscGun/physicsgun.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>VR Physics Gun</h3> 
+                    <a href="https://github.com/MarshMello0/vr-physicsgun" class="link-underline">Github Repository</a>
+                    <p>
+                        This was a quick prototype of recreating the Physics Gun from Garry's Mod in VR. I created this as soon as I got my first VR headset using Unity and SteamVR's Plugin 1.X.X before they had redone the inputs system in 2.0.0. This prototype was done over one weekend in 2018 and I would like to revisit it to improve it.
+                        <br><br>
+                        This was my first real test with using VR inside of Unity as I had only got my headset a day before I started this. All the art was just basic cubes and the line was just a line renderer from your controller to where the cube was meant to be. I hope to revisit this with Unity's new XR system and create a better-looking prototype which may include some other features from Garry's Mod.
+                    </p>
+                    Tools: Visual Studio, Unity, Steam VR Plugin 1.X.X
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/Block Factory/Factory.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>Block Factory</h3> 
+                    <a href="https://gamejolt.com/games/BlockFactory/340392" class="link-underline">GameJolt Page</a>
+                    <p>
+                        Block Factory was my final major project for my first year in Level 3 Games Development at Northbrook. This also was my first completed 3D game which made it to second in the category in action. The assets were created in Magica Voxel. I also used Magica Voxel to create the UI, I did this by creating the background panels then exporting it as a 2D image which I would use in the UI background.
+                        <br><br>
+                        Looking back at this project the one big issue with it is the lighting. It was meant to be set inside a factory however I had no experience with how to create good lighting so I just ended up making everything a bright white which made it harder to tell the depth. Another challenge with this project was getting the pipes working where items would travel along and get filtered correctly, the final implementation wasn't good or optimised but it worked most of the time.
+                    </p>
+                    Tools: Visual Studio, Unity, MagicaVoxel 
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/Head Football/Poster2.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>Mythological Head Football </h3> 
+                    <p>
+                        Mythological Head Football was my final major project in Level 2 Games Development at Northbrook. The theme was Mythology and from inspired browser football games, I created a head football game where you would play as different mythological gods. This was around the time when I first started using Unity back in version 5.4 and learning C# at the same time. I am really happy with how this project turned out as it and high expectations when I created the plan for my WordPress site.
+                        <br><br>
+                        One of the biggest challenges about this project was the decision to try adding multiplayer using Photon Networking. Having done nothing like creating games before then trying to create a game with multiplayer in mind. It ended up working but it would constantly desync/lag, but glad I tried it and didn't give up.
+                    </p>
+                    Tools: Visual Studio, Untiy, Photon, Photoshop
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            <div class="portfolio-container padding-top">
+                <img src="/img/Infected2D/Map 1.png" class="portfolio-image"/>
+                <div class="portfolio-text">
+                    <h3>Infected 2D</h3> 
+                    <a href="https://hiddendetail.itch.io/infected-2d" class="link-underline">Itch.io Page</a>
+                    <p>
+                        Infected 2D was the first game I made in my spare time. I created this while at college while creating Mythological Head Football because I wanted a project where I wouldn't have to keep documenting my progress. It was based off a simple concept of tag where one person was picked at random then the other local players have not to get tagged by them, then at the end of the timer the person tagged dies.
+                        <br><br>
+                        This project overall was a challenge, learning how components worked, how to import assets, how physics work and how to get the different controllers working.
+                    </p>
+                    Tools: Visual Studio, Unity, Photoshop
+                    <br>
+                    Languages: C#
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="main-contacttitle text-center colour-grey-background margin-top" id="contact">
+            <h2>Contact</h2>
+        </div>
+
+        <div class="main-contact contact-container colour-lightblack-background padding-top">
+            <div class="contact-email text-center text-large">
+                <a href="mailto:benwilson2508@gmail.com" class="link"><i class="far fa-envelope"></i> Email</a>
+                
+            </div>
+            <div class="contact-github text-center text-large">
+                <a href="https://github.com/MarshMello0" class="link"><i class="fab fa-github"></i> Github Profile</a>
+            </div>
+            <div class="contact-linkedin text-center text-large">
+                <a href="https://www.linkedin.com/in/benwilsonuk/" class="link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0c378b15f0.js" crossorigin="anonymous"></script>
+</body>
 </html>
